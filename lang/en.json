@@ -1,0 +1,17 @@
+{
+  "dir": "ltr",
+  "font": "'Ubuntu', sans-serif",
+  "header-p": "The best way to manage your education system",
+  "header-btn": "try for free",
+  "title": "Examer",
+  "intro1": "<span>Examer</span> is online education mangment system. for teatchers and students and perents. You manage your points and edite this point any time. You can see your points.and manage your time to make good life and future.",
+  "intro2": "Add new students from any school.  Male and female teachers, from 10 to 25 years old can use <span>Examer</span>.",
+  "intro3": "<span>Examer</span> can calculate your <span>rate</span> automatique. without efforts. and list of all next exams.",
+  "admin-cart": "Manage all activities and all feutures.",
+  "admin-cart-title": "Admin",
+  "teacher-cart-title": "Teacher",
+  "teacher-cart": "Manage all activities and all feutures.",
+  "student-cart-title": "Student",
+  "student-cart": "See all your points, and make to do list to make good times.",
+  "login": "login now"
+}

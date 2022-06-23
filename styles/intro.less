@@ -1,0 +1,40 @@
+.intro {
+  margin-top: 25px;
+  padding: 0 20px;
+
+  h2 {
+    font-weight: 700;
+    font-size: 20pt;
+  }
+
+  div {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+
+    @media only screen and (min-width: 769px) and (max-width: 1024px) {
+      column-gap: 50px;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    p {
+      margin-top: 15px;
+      font-weight: 200;
+      font-size: 13pt;
+      &::selection {
+        color: #404040;
+        background-color: #7D99FF;
+      }
+
+      span {
+        // color: #0096F1;
+        color: darken(@mainColor, 5%);
+        font-weight: 500;
+        &::selection {
+          color: darken(@mainColor, 40%);
+          background-color: #7D99FF;
+        }
+      }
+    }
+  }
+}

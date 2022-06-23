@@ -1,0 +1,51 @@
+@mainColor: #13B0FF;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Ubuntu', sans-serif;
+  transition: .5s;
+  &::selection {
+    color: #404040;
+    background-color: #7D99FF;
+  }
+}
+
+h1 {
+  margin: 0;
+}
+
+body {
+  padding-top: 8vh;
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    padding-top: 112px;
+  }
+}
+
+button {
+  user-select: none;
+}
+.login {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 15px 25px;
+  background-color: lighten(@mainColor, 10%);
+  border: none;
+  border-radius: 10px;
+  &:hover {
+    transform: translate(-50%) scale(1.2);
+  }
+  a {
+    text-decoration: none;
+    color: snow;
+  }
+}
+
+@import "./styles/nav";
+@import "./styles/header";
+@import "./styles/intro";
+@import "./styles/cart.less";
+@import "./styles/footer.less";

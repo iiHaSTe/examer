@@ -1,0 +1,48 @@
+header {
+  background-color: @mainColor;
+  padding: 10px 15px;
+  padding-bottom: 50px;
+  height: 70vh;
+  color: #EFEFEF;
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    height: auto;
+  }
+  
+  h1 {
+    font-size: 40pt;
+    font-weight: 800;
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+  }
+
+  p {
+    font-size: 18pt;
+    font-weight: 300;
+    margin-bottom: 50px;
+
+    span {
+      margin-right: 15px;
+      color: #f00;
+      font-weight: 700;
+    }
+  }
+
+  button {
+    //@myColor: #0055C8;
+    @myColor: #00C823;
+    padding: 10px 25px;
+    margin-left: 40px;
+    border: none;
+    transition: .3s;
+    border-radius: 5px;
+    background-color: @myColor;
+    box-shadow: 0 5px 0 darken(@myColor, 20%);
+    color: snow;
+
+    &:active {
+      transform: translate(0, 5px);
+      box-shadow: 0 0 0 darken(@myColor, 20%);
+    }
+  }
+
+}
